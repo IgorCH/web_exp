@@ -1,0 +1,98 @@
+body
+{
+
+}
+
+.igs_logoRoot
+{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: 100px auto;
+}
+
+.igs_logoRoot div
+{
+    position: absolute;
+    border: 1px solid black;
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: #0000FF;
+    -webkit-transition: -webkit-clip-path 0.5s, left 0.5s, top 0.5s, right 0.5s, bottom 0.5s, width 0.5s, height 0.5s, background-color 0.5s, -webkit-transform 0.5s;
+    transition: clip-path 0.5s, left 0.5s, top 0.5s, right 0.5s, bottom 0.5s, width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
+    z-index: 100;
+}
+
+.igs_logoRoot div:hover {
+    background-color: #FFCCCC;
+    width: 300px;
+    height: 300px;
+    z-index: 101;
+}
+
+.igs_logoRoot div.fullscreen {
+    background-color: #FFCCCC;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    z-index: 101;
+}
+
+.igs_logoPart1
+{
+    right: 50%;
+    bottom: 50%;
+    -webkit-clip-path: polygon(0 100%, 50% 0, 100% 100%);
+}
+
+.igs_logoPart1:hover
+{
+    right: 50%;
+    bottom: 50%;
+}
+
+.igs_logoPart1.fullscreen
+{
+    right: 0;
+    bottom: 0;
+}
+
+.igs_logoPart2
+{
+    left: 50%;
+    bottom: 50%;
+
+}
+
+.igs_logoPart2.fullscreen
+{
+    left: 0;
+    bottom: 0;
+    //clip-path: url(#clipping);
+}
+
+.igs_logoPart3 {
+    right: 50%;
+    top: 50%;
+}
+
+.igs_logoPart3.fullscreen
+{
+    right: 0;
+    top: 0;
+}
+
+.igs_logoPart4
+{
+    left: 50%;
+    top: 50%;
+}
+
+.igs_logoPart4.fullscreen
+{
+    left: 0;
+    top: 0;
+}
