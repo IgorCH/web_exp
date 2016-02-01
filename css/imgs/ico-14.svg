@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="70px" height="70px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 1747 1747"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="262.121" y1="262.121" x2="1485.36" y2="1485.36">
+     <stop offset="0" stop-opacity="1" stop-color="#7FAAFF"/>
+     <stop offset="1" stop-opacity="1" stop-color="#3D7EFF"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_634198547840">
+   <circle fill="url(#id0)" cx="874" cy="874" r="874"/>
+   <path fill="#256DFF" d="M1747 837c0,12 0,24 0,37 0,482 -391,873 -873,873 -5,0 -9,0 -14,0l-487 -486 1024 0 0 -774 350 350z"/>
+   <rect fill="white" x="373" y="487" width="1024" height="774"/>
+   <path fill="none" stroke="black" stroke-width="49.922" d="M1403 440l0 874m50 -50l-1123 0m49 50l0 -874m-49 50l1123 0"/>
+   <path fill="none" stroke="black" stroke-width="49.922" d="M619 852c-2,1 -5,1 -8,1 -46,0 -82,-27 -82,-59 0,-32 36,-59 82,-59 45,0 82,27 82,59"/>
+   <path fill="none" stroke="black" stroke-width="49.922" d="M691 782c17,51 27,115 28,173"/>
+   <line fill="none" stroke="black" stroke-width="49.922" x1="604" y1="825" x2="604" y2= "1066" />
+   <line fill="none" stroke="black" stroke-width="49.922" x1="611" y1="1066" x2="882" y2= "1066" />
+   <path fill="none" stroke="black" stroke-width="49.922" d="M719 924c54,-14 109,-21 163,-21"/>
+   <path fill="none" stroke="black" stroke-width="49.922" d="M1145 852c3,1 5,1 8,1 46,0 82,-27 82,-59 0,-32 -36,-59 -82,-59 -45,0 -82,27 -82,59"/>
+   <path fill="none" stroke="black" stroke-width="49.922" d="M1073 782c-16,51 -27,115 -28,173"/>
+   <line fill="none" stroke="black" stroke-width="49.922" x1="1153" y1="825" x2="1153" y2= "1066" />
+   <line fill="none" stroke="black" stroke-width="49.922" x1="1153" y1="1066" x2="882" y2= "1066" />
+   <path fill="none" stroke="black" stroke-width="49.922" d="M1045 924c-54,-14 -108,-21 -163,-21"/>
+   <rect fill="none" stroke="black" stroke-width="49.922" x="1054" y="1066" width="99.8608" height="73.3768"/>
+   <rect fill="none" stroke="black" stroke-width="49.922" x="604" y="1066" width="98.2946" height="73.3768"/>
+   <path fill="none" stroke="black" stroke-width="49.922" d="M611 735c181,-171 361,-161 542,0"/>
+   <path fill="white" stroke="black" stroke-width="47.9217" stroke-linecap="round" stroke-linejoin="round" d="M677 1519l97 43 287 0c32,0 51,-25 51,-46 0,-21 -10,-32 -25,-39 23,-2 41,-20 41,-43 0,-21 -14,-38 -34,-42l8 -2c26,-3 43,-25 43,-46 0,-21 -12,-34 -28,-40 24,0 44,-19 44,-43 0,-25 -20,-44 -44,-44l-205 3 27 -74c21,-58 -8,-144 -29,-172 -21,-33 -55,-23 -58,12l-12 114 -102 115 -61 31 0 273z"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="70px" height="70px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 6094 6094"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="914.149" y1="914.149" x2="5180.22" y2="5180.22">
+     <stop offset="0" stop-opacity="1" stop-color="#7FAAFF"/>
+     <stop offset="1" stop-opacity="1" stop-color="#3D7EFF"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_634213221872">
+   <circle fill="url(#id0)" cx="3047" cy="3047" r="3047"/>
+   <path fill="#256DFF" d="M6080 3342c-136,1424 -1253,2561 -2667,2730l-1676 -1675 2699 -2699 1644 1644z"/>
+   <g>
+    <rect fill="white" x="1737" y="1698" width="2699" height="2699"/>
+    <line fill="none" stroke="black" stroke-width="174.103" x1="2891" y1="2145" x2="4109" y2= "2145" />
+    <line fill="none" stroke="black" stroke-width="174.103" x1="2891" y1="2406" x2="4109" y2= "2406" />
+    <line fill="none" stroke="black" stroke-width="174.103" x1="2891" y1="2928" x2="4109" y2= "2928" />
+    <line fill="none" stroke="black" stroke-width="174.103" x1="2891" y1="3190" x2="4109" y2= "3190" />
+    <line fill="none" stroke="black" stroke-width="174.103" x1="2891" y1="3712" x2="4109" y2= "3712" />
+    <line fill="none" stroke="black" stroke-width="174.103" x1="2891" y1="3973" x2="4109" y2= "3973" />
+    <path fill="none" stroke="black" stroke-width="174.103" d="M4458 1536l0 3047m174 -174l-3047 0m174 174l0 -3047m-174 174l3047 0"/>
+    <polyline fill="none" stroke="black" stroke-width="174.103" points="2059,2232 2281,2493 2629,2145 "/>
+    <polyline fill="none" stroke="black" stroke-width="174.103" points="2059,3016 2281,3277 2629,2928 "/>
+    <polyline fill="none" stroke="black" stroke-width="174.103" points="2059,3799 2281,4060 2629,3712 "/>
+   </g>
+  </g>
+ </g>
+</svg>

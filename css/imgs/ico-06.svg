@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="84px" height="84px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 3297 3297"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="494.572" y1="494.572" x2="2802.63" y2="2802.63">
+     <stop offset="0" stop-opacity="1" stop-color="#7FAAFF"/>
+     <stop offset="1" stop-opacity="1" stop-color="#3D7EFF"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_634198530144">
+   <circle fill="url(#id0)" cx="1649" cy="1649" r="1649"/>
+   <path fill="#256DFF" d="M3297 1656c-4,907 -740,1641 -1648,1641 -34,0 -66,-1 -99,-3l-904 -904 2005 -1380 646 646z"/>
+   <rect fill="white" x="628" y="1019" width="2041" height="1374"/>
+   <line fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" x1="628" y1="2432" x2="628" y2= "980" />
+   <line fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" x1="589" y1="1019" x2="2716" y2= "1019" />
+   <line fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" x1="2669" y1="2432" x2="2669" y2= "980" />
+   <line fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" x1="589" y1="2393" x2="2708" y2= "2393" />
+   <rect fill="none" stroke="black" stroke-width="78.4948" x="746" y="1137" width="1806" height="1138"/>
+   <g>
+    <line fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" x1="1654" y1="632" x2="1654" y2= "401" />
+    <line fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" x1="1901" y1="701" x2="2016" y2= "501" />
+    <line fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" x1="2080" y1="884" x2="2279" y2= "768" />
+    <line fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" x1="2074" y1="1378" x2="2274" y2= "1494" />
+    <line fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" x1="1406" y1="695" x2="1291" y2= "496" />
+    <line fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" x1="1223" y1="874" x2="1023" y2= "759" />
+    <line fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" x1="1217" y1="1369" x2="1018" y2= "1484" />
+    <path fill="white" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" d="M1651 1996c-17,0 -35,-7 -52,-21l0 -12 -87 -44c-21,-17 -31,-29 -40,-40 9,-12 26,-34 32,-41 -13,-7 -23,-18 -32,-30 9,-12 27,-35 32,-41 -13,-6 -23,-18 -32,-30 9,-12 27,-34 36,-46 10,-84 -24,-146 -91,-200 -234,-189 -353,-713 234,-737 587,24 467,548 234,737 -67,54 -101,116 -91,200 9,12 26,34 35,46 -9,12 -18,24 -32,30 5,6 23,29 32,41 -9,12 -18,23 -31,30 5,7 22,29 31,41 -9,11 -18,23 -40,40l-87 44 0 12c-17,14 -34,21 -51,21z"/>
+    <path fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" d="M1500 1656c11,38 281,37 294,0"/>
+    <line fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" x1="1647" y1="1684" x2="1859" y2= "1087" />
+    <line fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" x1="1647" y1="1684" x2="1434" y2= "1087" />
+    <path fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" d="M1504 1105c14,-12 42,-36 57,-49 15,13 39,34 54,46"/>
+    <path fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" d="M1605 1094c15,-13 29,-25 44,-38 14,13 29,25 44,38"/>
+    <path fill="none" stroke="black" stroke-width="75.3497" stroke-linecap="round" stroke-linejoin="round" d="M1682 1103c15,-12 40,-34 55,-47 14,13 29,25 44,38"/>
+   </g>
+   <polygon fill="white" stroke="black" stroke-width="78.4948" points="1806,2589 1806,2393 1492,2393 1492,2589 1217,2589 1217,2746 2041,2746 2041,2589 "/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="70px" height="70px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 1992 1992"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="298.778" y1="298.778" x2="1693.09" y2="1693.09">
+     <stop offset="0" stop-opacity="1" stop-color="#7FAAFF"/>
+     <stop offset="1" stop-opacity="1" stop-color="#3D7EFF"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_576037184064">
+   <circle fill="url(#id0)" cx="996" cy="996" r="996"/>
+   <path fill="#256DFF" d="M1991 956c1,13 1,27 1,40 0,550 -446,996 -996,996 -16,0 -32,-1 -48,-1l-550 -550 1196 0 0 -882 397 397z"/>
+   <rect fill="white" x="398" y="559" width="1195" height="882"/>
+   <path fill="none" stroke="black" stroke-width="56.9035" d="M1594 502l0 996m56 -57l-1309 0m57 57l0 -996m-57 57l1309 0"/>
+   <polyline fill="none" stroke="black" stroke-width="56.9035" points="1252,1356 484,1356 484,644 1508,644 1508,1356 1368,1356 "/>
+   <line fill="none" stroke="black" stroke-width="56.9035" x1="795" y1="1242" x2="795" y2= "1356" />
+   <line fill="none" stroke="black" stroke-width="56.9035" x1="498" y1="1014" x2="795" y2= "1014" />
+   <line fill="none" stroke="black" stroke-width="56.9035" x1="795" y1="957" x2="795" y2= "1156" />
+   <line fill="none" stroke="black" stroke-width="56.9035" x1="795" y1="872" x2="795" y2= "967" />
+   <line fill="none" stroke="black" stroke-width="56.9035" x1="795" y1="644" x2="795" y2= "786" />
+   <line fill="none" stroke="black" stroke-width="56.9035" x1="996" y1="1014" x2="1508" y2= "1014" />
+   <line fill="none" stroke="black" stroke-width="56.9035" x1="1024" y1="900" x2="1024" y2= "1028" />
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="70px" height="70px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 10652 10652"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="1597.82" y1="1597.82" x2="9054.37" y2="9054.37">
+     <stop offset="0" stop-opacity="1" stop-color="#7FAAFF"/>
+     <stop offset="1" stop-opacity="1" stop-color="#3D7EFF"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_576039421776">
+   <circle fill="url(#id0)" cx="5326" cy="5326" r="5326"/>
+   <path fill="#256DFF" d="M10595 4547c38,254 57,514 57,779 0,2701 -2010,4932 -4616,5279l-1920 -1920 4297 -6320 2182 2182z"/>
+   <rect fill="white" stroke="black" stroke-width="304.31" transform="matrix(0.907267 -0.523811 0.467393 0.809549 1305.24 3300.5)" width="3196" height="7000"/>
+   <rect fill="white" stroke="black" stroke-width="304.31" transform="matrix(1.01192 -0.271144 0.241941 0.902934 2422.58 2364.71)" width="3196" height="7000"/>
+   <rect fill="white" stroke="black" stroke-width="304.31" x="3744" y="1750" width="3348" height="6544"/>
+   <rect fill="white" stroke="black" stroke-width="304.31" transform="matrix(1.01192 0.271144 -0.241941 0.902934 5179.6 1498.24)" width="3196" height="7000"/>
+   <g>
+    <polygon fill="none" stroke="black" stroke-width="304.31" points="6164,2401 7046,2638 7132,4079 5369,3606 "/>
+    <line fill="none" stroke="black" stroke-width="304.31" x1="6250" y1="3842" x2="5764" y2= "5659" />
+    <polygon fill="none" stroke="black" stroke-width="304.31" points="5738,5753 6355,6391 4885,5997 "/>
+    <line fill="none" stroke="black" stroke-width="304.31" x1="5770" y1="3871" x2="5690" y2= "4170" />
+    <circle fill="none" stroke="black" stroke-width="304.31" transform="matrix(0.5 -0.866025 0.866025 0.5 5383.91 7076.14)" r="304"/>
+   </g>
+  </g>
+ </g>
+</svg>

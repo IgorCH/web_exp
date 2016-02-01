@@ -1,0 +1,63 @@
+<div id="models">
+    <md-toolbar>
+        <div layout="row">
+            <div layout="column">
+                <span>Исполнитель</span>
+                <md-select ng-model="mvc.state.filter.executioner" aria-label="executioner">
+                    <md-option>Игорь</md-option>
+                    <md-option>Вася</md-option>
+                </md-select>
+            </div>
+            <div layout="column">
+                <span>Категории</span>
+                <md-select ng-model="mvc.state.filter.room"  aria-label="room">
+                    <md-option>Кухня</md-option>
+                    <md-option>Спальня</md-option>
+                </md-select>
+            </div>
+            <div layout="column">
+                <span>Стиль</span>
+                <md-select ng-model="mvc.state.filter.style"  aria-label="style">
+                    <md-option>Классический</md-option>
+                    <md-option>Современный</md-option>
+                </md-select>
+            </div>
+            <div layout="column">
+                <span>Гамма</span>
+                <md-select ng-model="mvc.state.filter.gamma"  aria-label="gamma">
+                    <md-option>Однотонная</md-option>
+                    <md-option>Контрастная</md-option>
+                </md-select>
+            </div>
+            <div layout="column">
+                <span>Основной цвет</span>
+                <md-select ng-model="mvc.state.filter.main_color"  aria-label="executioner">
+                    <md-option>Кухня</md-option>
+                    <md-option>Спальня</md-option>
+                </md-select>
+            </div>
+            <div layout="column">
+                <span>Цвет акцента</span>
+                <md-select ng-model="mvc.state.filter.accent_color"  aria-label="executioner">
+                    <md-option>Кухня</md-option>
+                    <md-option>Спальня</md-option>
+                </md-select>
+            </div>
+            <div layout="column">
+                <span>Материал</span>
+                <md-select ng-model="mvc.state.filter.material"  aria-label="executioner">
+                    <md-option>Кухня</md-option>
+                    <md-option>Спальня</md-option>
+                </md-select>
+            </div>
+        </div>
+    </md-toolbar>
+    <div layout-aligdn="row">
+        <md-card ng-repeat="model in mvc.state.models"
+                 style="display:inline-block;width:300px;height:400px;padding:10px ">
+            <img ng-src="{{mvc.getImgPath(model.url)}}" alt=""/>
+            <span>{{model.title}}</span>
+            <ng-md-icon icon="shopping_cart"></ng-md-icon>
+        </md-card>
+    </div>
+</div>

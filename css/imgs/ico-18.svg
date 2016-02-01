@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="70px" height="70px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 10652 10652"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="1597.82" y1="1597.82" x2="9054.37" y2="9054.37">
+     <stop offset="0" stop-opacity="1" stop-color="#7FAAFF"/>
+     <stop offset="1" stop-opacity="1" stop-color="#3D7EFF"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_576039429424">
+   <circle fill="url(#id0)" cx="5326" cy="5326" r="5326"/>
+   <path fill="#256DFF" d="M10642 5659c-168,2714 -2368,4878 -5098,4988l-2963 -2963 468 -1097 3535 -119 -2362 -2362 3240 -638 1217 228 1963 1963z"/>
+   <path fill="white" stroke="black" stroke-width="304.31" d="M5255 2479c497,0 920,317 1077,761l1891 0 456 456 -456 457 -457 -457 -456 457 -1045 0c-191,362 -572,608 -1010,608 -630,0 -1141,-511 -1141,-1141 0,-630 511,-1141 1141,-1141z"/>
+   <polyline fill="none" stroke="black" stroke-width="304.31" points="6380,3240 8223,3240 8679,3696 8223,4153 7766,3696 7310,4153 6397,4153 "/>
+   <polygon fill="white" points="5071,6053 3820,5197 3294,5066 2767,5197 1516,5921 2570,7633 3294,7304 5400,8225 6453,8225 9136,5925 9057,5585 8691,5461 8320,5507 7745,5331 7243,5461 6700,5328 "/>
+   <path fill="none" stroke="black" stroke-width="304.31" d="M4478 6777l527 263 1848 0 258 -263 0 -378 -283 -289 -1757 -57 -1251 -856 -526 -131 -527 131 -1544 934m152 -457l1369 2283m-532 -76l1082 -577 2106 921 1053 0 2683 -2300 -79 -340 -366 -124 -371 46 -575 -176 -502 130 -543 -133 -1300 593"/>
+   <circle fill="none" stroke="black" stroke-width="304.31" cx="4875" cy="3620" r="304"/>
+  </g>
+ </g>
+</svg>

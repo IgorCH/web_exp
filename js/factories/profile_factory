@@ -1,0 +1,31 @@
+app.factory('Profile', ProfileFactory);
+
+ProfileFactory.$inject = ["$rootScope", "$compile", '$q', '$document', '$parse'];
+
+
+function ProfileFactory($rootScope, $compile, $q, $document, $parse) {
+
+    return {
+        load: load
+    };
+
+    /*
+    *                         var defer = $q.defer();
+     var promise = defer.promise;
+
+     if (result && result.then) {
+     promise = result;
+     } else if (!!result == true) {
+     defer.resolve();
+     } else {
+     defer.reject();
+     }
+
+     return promise;
+    * */
+
+    function load() {
+
+    }
+
+}

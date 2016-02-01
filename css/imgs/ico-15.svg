@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="70px" height="70px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 6094 6094"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="914.149" y1="914.149" x2="5180.22" y2="5180.22">
+     <stop offset="0" stop-opacity="1" stop-color="#7FAAFF"/>
+     <stop offset="1" stop-opacity="1" stop-color="#3D7EFF"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_634198545984">
+   <circle fill="url(#id0)" cx="3047" cy="3047" r="3047"/>
+   <path fill="#256DFF" d="M6091 2918c2,43 3,86 3,129 0,1683 -1364,3047 -3047,3047 -16,0 -32,0 -48,0l-1697 -1697 3570 0 0 -2699 -792 -791 -791 791 1583 0 1219 1220z"/>
+   <rect fill="white" x="1323" y="1710" width="3570" height="2699"/>
+   <path fill="none" stroke="black" stroke-width="174.103" d="M4893 1535l0 3048m174 -175l-3918 0m174 175l0 -3048m-174 175l3918 0"/>
+   <path fill="none" stroke="black" stroke-width="174.103" d="M2224 2967c-10,1 -20,1 -30,1 -158,0 -286,-91 -286,-204 0,-113 128,-205 286,-205 158,0 286,92 286,205"/>
+   <path fill="none" stroke="black" stroke-width="174.103" d="M2474 2723c58,176 93,401 98,602"/>
+   <line fill="none" stroke="black" stroke-width="174.103" x1="2194" y1="2871" x2="2194" y2= "3712" />
+   <line fill="none" stroke="black" stroke-width="174.103" x1="2194" y1="3712" x2="3140" y2= "3712" />
+   <path fill="none" stroke="black" stroke-width="174.103" d="M2570 3218c190,-51 380,-75 570,-75"/>
+   <path fill="none" stroke="black" stroke-width="174.103" d="M4056 2967c10,1 20,1 31,1 157,0 285,-91 285,-204 0,-113 -128,-205 -285,-205 -158,0 -286,92 -286,205"/>
+   <path fill="none" stroke="black" stroke-width="174.103" d="M3806 2723c-57,176 -93,401 -97,602"/>
+   <line fill="none" stroke="black" stroke-width="174.103" x1="4109" y1="2871" x2="4109" y2= "3712" />
+   <line fill="none" stroke="black" stroke-width="174.103" x1="4087" y1="3712" x2="3140" y2= "3712" />
+   <path fill="none" stroke="black" stroke-width="174.103" d="M3710 3218c-190,-51 -380,-75 -570,-75"/>
+   <rect fill="none" stroke="black" stroke-width="174.103" x="3767" y="3712" width="343" height="256"/>
+   <rect fill="none" stroke="black" stroke-width="174.103" x="2194" y="3712" width="348" height="256"/>
+   <path fill="none" stroke="black" stroke-width="174.103" d="M2194 2559c631,-598 1262,-563 1893,0"/>
+   <polygon fill="white" points="2698,2322 4062,958 3717,613 2353,1977 2227,2448 "/>
+   <polygon fill="none" stroke="black" stroke-width="174.103" points="4102,918 2698,2322 2227,2448 2353,1977 3757,573 "/>
+   <line fill="none" stroke="black" stroke-width="174.103" x1="3424" y1="834" x2="3841" y2= "1251" />
+   <line fill="none" stroke="black" stroke-width="174.103" x1="2385" y1="2006" x2="2730" y2= "2351" />
+  </g>
+ </g>
+</svg>

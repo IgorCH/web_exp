@@ -1,0 +1,61 @@
+<div id="profile" class="profile">
+    <md-tabs md-dynamic-height>
+        <md-tab label="Updates">
+            <md-content class="md-padding">
+                <md-list>
+                    <md-item>
+                        <md-item-content layout="row" layout-align="start center">
+                            <div class="inset">
+                                <ng-md-icon icon="dashboard"></ng-md-icon>
+                            </div>
+                            <div class="inset">
+                                <a ui-sref="project({id:'project._id'})">Project 1</a>
+                                <span ng-click="showProjectUpdates('project._id')">(30)</span>
+                            </div>
+                        </md-item-content>
+                    </md-item>
+                    <md-divider></md-divider>
+                </md-list>
+            </md-content>
+        </md-tab>
+        <md-tab label="Private Info">
+            <md-content class="md-padding">
+                <form name="newProjectForm">
+                    <select ng-model="pvc.state.profile.lng">
+                        <option value="EN">EN</option>
+                        <option value="RU">RU</option>
+                    </select><br>
+                    <img src="" alt=""/>
+                    <md-button>Change Image</md-button>
+                    <md-input-container flex>
+                        <label>First Name</label>
+                        <input ng-model="pvc.state.profile.name">
+                    </md-input-container>
+                    <md-input-container flex>
+                        <label>Last Name</label>
+                        <input ng-model="lastName">
+                    </md-input-container>
+                    <md-input-container flex>
+                        <label>Email</label>
+                        <input ng-model="pvc.state.profile.email">
+                    </md-input-container>
+                    <md-button class="md-primary" ng-click="pvc.saveProfile()">Save</md-button>
+
+                    <md-input-container flex>
+                        <label>Old Pass</label>
+                        <input ng-model="firstName">
+                    </md-input-container>
+                    <md-input-container flex>
+                        <label>New Pass</label>
+                        <input ng-model="lastName">
+                    </md-input-container>
+                    <md-input-container flex>
+                        <label>New Pass</label>
+                        <input ng-model="email">
+                    </md-input-container>
+                    <md-button class="md-primary">Change Pass</md-button>
+                </form>
+            </md-content>
+        </md-tab>
+    </md-tabs>
+</div>

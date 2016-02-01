@@ -1,0 +1,243 @@
+<div id="project">
+    <div class="">
+        <div>
+            <md-subheader class="">Проект {{projvc.state.data.project.title}}</md-subheader>
+            <md-content flex>
+                <md-tabs md-dynamic-height>
+
+                    <md-tab label="Общее">
+
+                        <md-input-container flex>
+                            <label>Описание</label>
+                            <textarea></textarea>
+
+
+                        </md-input-container>
+
+                        <p>Перечислите состав помещений и их площадь. Опишите стиль и цветовую гамму проекта, тип напольных покрытий и отделочных материалов</p>
+
+
+                        <h3>Стоимость проекта</h3>
+
+
+
+
+                        <p>Укажите площадь помещений и выберите необходимые опции для того, чтобы расчитать стоимость проекта</p>
+
+                        <h2>Площадь помещения по полу:</h2>
+                        <md-input    type="text" name="square">
+
+                        <p>м<sup>2</sup></p>
+
+                        <div layout="row">
+                            <div layout="column">
+                                <md-checkbox ng-model="vm.state.checkbox">1</md-checkbox>
+                                <md-checkbox ng-model="vm.state.checkbox">2</md-checkbox>
+                                <md-checkbox ng-model="vm.state.checkbox">3</md-checkbox>
+                                <md-checkbox ng-model="vm.state.checkbox">4</md-checkbox>
+                                <!--<li class="checked-textfield-item">
+                                    <div class="col">
+                                        <div class="chk-area chk-focus js-check"></div>
+                                        <label for="discount_code">Номер купона для скидки:</label>
+                                    </div>
+                                    <span class="price">0$</span>
+                                    <input class="code" id="discount_code" name="discount_code" type="text" value=""></li>
+                                <li class="number-item">
+                                    <div class="col">
+                                        <div class="chk-area chk-focus js-check"></div>
+                                        <label for="adjustments_count">Количество вносимых корректировок:</label>
+                                    </div>
+                                    <span class="price">+25$</span>
+
+                                    <div class="amount">
+                                        <a class="reduce js-reduce" href="#">Уменьшить</a>
+                                        <div class="text">
+                                            <input id="adjustments_count" name="adjustments_count" type="text" value="0">
+                                            <span class="unit">шт</span>
+                                        </div>
+                                        <a class="add js-add" href="#">Добавить</a>
+                                    </div>
+                                </li>
+                                <li class="checked-textfield-item">
+                                    <div class="col">
+                                        <div class="chk-area chk-focus js-check"></div>
+                                        <label for="modelings_count">Моделирование объектов:</label>
+                                    </div>
+                                    <span class="price">0$</span>
+                                    <input class="code" id="modelings_count" name="modelings_count" type="text" value="0">
+                                </li>
+                                <li class="number-item">
+                                    <div class="col">
+                                        <div class="chk-area chk-focus js-check"></div>
+                                        <label for="high_value_image">Изображение в высоком разрешении:</label></div>
+                                    <span class="price">+20$</span>
+
+                                    <div class="amount"><a class="reduce js-reduce" href="#">Уменьшить</a>
+
+                                        <div class="text"><input id="high_value_image" name="high_value_image" type="text"
+                                                                 value="0"><span class="unit">шт</span></div>
+                                        <a class="add js-add" href="#">Добавить</a></div>
+                                </li>
+
+
+                                <li class="checkbox-item">
+                                    <div class="col">
+                                        <div class="chk-area js-check"></div>
+                                        <input class="jcf-hidden" id="initial_scene_with_settings"
+                                               name="initial_scene_with_settings" type="checkbox"><label
+                                            for="initial_scene_with_settings">Исходная сцена с настройками:</label></div>
+                                    <div class="price">+0$</div>
+                                </li>
+
+                                <li class="checkbox-item">
+                                    <div class="col">
+                                        <div class="chk-area js-check"></div>
+                                        <input class="jcf-hidden" id="drawing_documentation" name="drawing_documentation"
+                                               type="checkbox"><label for="drawing_documentation">Чертежная документация:</label>
+                                    </div>
+                                    <div class="price">+0$</div>
+                                </li> -->
+                            </div>
+                            <div layout="column">
+                                <md-checkbox ng-model="vm.state.checkbox">4</md-checkbox>
+                                <!--
+
+        <li class="checkbox-item">
+            <div class="col">
+                <div class="chk-area js-check"></div>
+                <input class="jcf-hidden" id="furniture_plan" name="furniture_plan" type="checkbox"><label
+                    for="furniture_plan">Разработка плана расстановки мебели:</label></div>
+            <div class="price">+0$</div>
+        </li>
+        <li class="checkbox-item">
+            <div class="col">
+                <div class="chk-area js-check"></div>
+                <input class="jcf-hidden" id="ceiling_plan" name="ceiling_plan" type="checkbox"><label
+                    for="ceiling_plan">Дизайн потолков:</label></div>
+            <div class="price">+0$</div>
+        </li>
+        <li class="checkbox-item">
+            <div class="col">
+                <div class="chk-area js-check"></div>
+                <input class="jcf-hidden" id="lighting_plan" name="lighting_plan" type="checkbox"><label
+                    for="lighting_plan">Дизайн размещения освещения:</label></div>
+            <div class="price">+0$</div>
+        </li>
+        <li class="checkbox-item">
+            <div class="col">
+                <div class="chk-area js-check"></div>
+                <input class="jcf-hidden" id="coverings_plan" name="coverings_plan" type="checkbox"><label
+                    for="coverings_plan">Дизайн напольных покрытий:</label></div>
+            <div class="price">+0$</div>
+        </li>
+        <li class="checkbox-item">
+            <div class="col">
+                <div class="chk-area js-check"></div>
+                <input class="jcf-hidden" id="walls_plan" name="walls_plan" type="checkbox"><label
+                    for="walls_plan">Дизайн отделки стен:</label></div>
+            <div class="price">+0$</div>
+        </li>
+        <li class="checkbox-item">
+            <div class="col">
+                <div class="chk-area js-check"></div>
+                <input class="jcf-hidden" id="select_facilities" name="select_facilities"
+                       type="checkbox"><label for="select_facilities">Подбор объектов наполнения:</label>
+            </div>
+            <div class="price">+0$</div>
+        </li>
+   -->
+                            </div>
+                        </div>
+
+                        <h1>Сумма заказа</h1><strong>0$</strong>
+                        <input type="checkbox" name="agree">
+
+                        <p>I agree with payment refund and private policy</p>
+
+                    </md-tab>
+
+                    <md-tab label="Задачи">
+                        <div class="task-container">
+                            <div ng-repeat="task in projvc.state.data.tasks">
+                                <span ng-click="projvc.openTask(task._id)">{{$index + 1}}. {{task.title}}</span>
+                                <md-button class="md-primary md-raised" ng-click="projvc.openTask(task._id)">Open</md-button>
+                                <md-button class="md-raised" ng-click="projvc.deleteTask(task._id)">Delete</md-button>
+                            </div>
+                        </div>
+
+                        <md-button class="md-raised md-primary md-button md-ink-ripple"
+                                   ng-hide="projvc.state.showNewTaskForm"
+                                   ng-click="projvc.showNewTaskForm()">New Task</md-button>
+
+                    </md-tab>
+
+                    <md-tab label="Обсуждение">
+                        <div ng-repeat="message in projvc.state.data.project.messages">
+                            {{message}}
+                        </div>
+                        <div>
+                            <md-input-container flex>
+                                <label>Message</label>
+                                <textarea ng-model="vm.state.newMessageData.message"></textarea>
+                            </md-input-container>
+                            <md-checkbox ng-model="vm.state.newMessageData.clientRights">Client Rights</md-checkbox>
+                            <md-button class="md-raised md-primary md-button md-ink-ripple" type="button" ng-click="projvc.addMessage()">Add Message</md-button>
+                        </div>
+                    </md-tab>
+
+                    <md-tab label="Участники">
+                        <md-subheader>Участники</md-subheader>
+                    </md-tab>
+
+                    <md-tab label="Файлы">
+                        <md-subheader>
+                            Файлы
+                        </md-subheader>
+                        <span class="md-raised md-primary md-button md-ink-ripple"
+                              ng-repeat="file in projvc.state.data.project.files">
+                            {{file.name}}
+                        </span>
+                        <form name="files">
+                            <div ngf-drop name="files2" ng-model="projvc.files" ngf-multiple="true"
+                                 style="margin:10px;text-align:center;width:400px;height:150px;padding:20px;border:2px dashed black">
+                                Drop Files Here
+                            </div>
+                            <md-button ngf-select name="files1" ng-model="projvc.files" ngf-multiple="true"
+                                       class="md-raised md-primary md-button md-ink-ripple">
+                                Select Files
+                            </md-button>
+                            <md-button class="md-raised md-primary md-button md-ink-ripple"
+                                       ng-click="projvc.uploadFiles()">
+                                Upload Files
+                            </md-button>
+                            <div>
+                                <div class="md-raised md-primary md-button md-ink-ripple"
+                                     ng-repeat="selectedFile in projvc.files">
+                                    {{selectedFile.$name}}
+
+                                    <img ngf-thumbnail="!selectedFile.$error && selectedFile">
+                                    <span ng-show="selectedFile.progress >= 0"></span>
+                                    <div style="width:{{selectedFile.progress}}%">{{selectedFile.progress}}%</div>
+                                </div>
+
+                            </div>
+                        </form>
+
+                        <md-subheader>Модели</md-subheader>
+                        <md-button>Add Models</md-button>
+
+                        <md-subheader>Сцены</md-subheader>
+                        <md-button>Add Models</md-button>
+                    </md-tab>
+
+                    <md-tab label="Результаты">
+                        <md-subheader>Результаты</md-subheader>
+                        <md-button>Add Files</md-button>
+                    </md-tab>
+
+                </md-tabs>
+            </md-content>
+
+        </div>
+    </div>
+</div>

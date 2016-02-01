@@ -1,0 +1,261 @@
+<div id="projects">
+    <h3>{{pvc.translations.menu.projects_list}}</h3>
+    <div>
+        <div class="">
+            <!--div id="content">
+                <div class="nav-bar">
+                    <nav id="nav">
+                        <ul id="filters">
+                            <li class="favorites-control">
+                                <span class="favorites js-toggle-favorite"></span>
+                                <input class="jcf-hidden" name="favourites" type="checkbox">
+                            </li>
+                            <li class="open-close open-close-container">
+                                <a class="opener" href="#">Дата постановки</a>
+                                <div class="slide js-slide-hidden">
+                                    <form action="#" class="type category">
+                                        <div class="controls-container">
+                                            <div class="date-period-control implementation_date">
+                                                <div class="checkboxes-wrapper">
+                                                    <div class="checkbox-item">
+                                                        <div class="rad-area rad-unchecked js-change-period"
+                                                             data-period="today"><span></span></div>
+                                                        <input class="jcf-hidden" id="implementation_date_today"
+                                                               name="implementation_date_today"
+                                                               type="checkbox">
+                                                        <label class="checkbox-label" for="implementation_date_today">Сегодня</label>
+                                                    </div>
+                                                    <div class="checkbox-item">
+                                                        <div class="rad-area rad-unchecked js-change-period"
+                                                             data-period="current_month">
+                                                            <span></span></div>
+                                                        <input class="jcf-hidden"
+                                                               id="implementation_date_current_month"
+                                                               name="implementation_date_current_month"
+                                                               type="checkbox"><label class="checkbox-label"
+                                                                                      for="implementation_date_current_month">Текущий
+                                                        месяц</label></div>
+                                                    <div class="checkbox-item">
+                                                        <div class="rad-area rad-unchecked js-change-period"
+                                                             data-period="last_month"><span></span></div>
+                                                        <input class="jcf-hidden"
+                                                               id="implementation_date_last_month"
+                                                               name="implementation_date_last_month"
+                                                               type="checkbox"><label class="checkbox-label"
+                                                                                      for="implementation_date_last_month">Прошлый
+                                                        месяц</label></div>
+                                                    <div class="checkbox-item">
+                                                        <div class="rad-area rad-unchecked js-change-period"
+                                                             data-period="current_year"><span></span></div>
+                                                        <input class="jcf-hidden"
+                                                               id="implementation_date_current_year"
+                                                               name="implementation_date_current_year"
+                                                               type="checkbox"><label class="checkbox-label"
+                                                                                      for="implementation_date_current_year">Текущий
+                                                        год</label></div>
+                                                    <div class="checkbox-item">
+                                                        <div class="rad-area rad-unchecked js-change-period"
+                                                             data-period="last_year"><span></span></div>
+                                                        <input class="jcf-hidden" id="implementation_date_last_year"
+                                                               name="implementation_date_last_year" type="checkbox"><label
+                                                            class="checkbox-label"
+                                                            for="implementation_date_last_year">Прошлый год</label>
+                                                    </div>
+                                                </div>
+                                                <span class="period-label left-label">Проект поставлен в период с</span>
+                                                <input class="textfield-item-input hasDatepicker"
+                                                       name="implementation_date_start_date" type="text"
+                                                       id="dp1444343008837">
+                                                <button type="button" class="ui-datepicker-trigger">...</button>
+                                                <span class="period-label middle-label">по</span><input
+                                                    class="textfield-item-input hasDatepicker"
+                                                    name="implementation_date_end_date" type="text"
+                                                    id="dp1444343008838">
+                                                <button type="button" class="ui-datepicker-trigger">...</button>
+                                            </div>
+                                        </div>
+                                        <footer>
+                                            <a class="close" href="#">Применить</a>
+                                            <a class="btn-back" href="#">Отменить</a>
+                                        </footer>
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="open-close locale-ru"><a class="opener" href="#">Статус</a>
+
+                                <div class="slide js-slide-hidden">
+                                    <form action="#" class="type">
+                                        <ul id="statuses">
+                                            <li>
+                                                <div class="rad-area  rad-unchecked"><span></span></div>
+                                                <input class="jcf-hidden" id="definition" name="statuses"
+                                                       type="checkbox" value="definition"><label for="definition">Постановка
+                                                задания</label></li>
+                                            <li>
+                                                <div class="rad-area  rad-unchecked"><span></span></div>
+                                                <input class="jcf-hidden" id="checking" name="statuses"
+                                                       type="checkbox" value="checking"><label for="checking">Проверка
+                                                задания</label></li>
+                                            <li>
+                                                <div class="rad-area  rad-unchecked"><span></span></div>
+                                                <input class="jcf-hidden" id="incomplete_specification"
+                                                       name="statuses" type="checkbox"
+                                                       value="incomplete_specification"><label
+                                                    for="incomplete_specification">Неполное ТЗ</label></li>
+                                            <li>
+                                                <div class="rad-area  rad-unchecked"><span></span></div>
+                                                <input class="jcf-hidden" id="payment_waiting" name="statuses"
+                                                       type="checkbox" value="payment_waiting"><label
+                                                    for="payment_waiting">Ожидание оплаты</label></li>
+                                            <li>
+                                                <div class="rad-area  rad-unchecked"><span></span></div>
+                                                <input class="jcf-hidden" id="implementation" name="statuses"
+                                                       type="checkbox" value="implementation"><label
+                                                    for="implementation">Реализация задания</label></li>
+                                            <li>
+                                                <div class="rad-area  rad-unchecked"><span></span></div>
+                                                <input class="jcf-hidden" id="acceptance" name="statuses"
+                                                       type="checkbox" value="acceptance"><label for="acceptance">Приемка
+                                                задания</label></li>
+                                            <li>
+                                                <div class="rad-area  rad-unchecked"><span></span></div>
+                                                <input class="jcf-hidden" id="performed" name="statuses"
+                                                       type="checkbox" value="performed"><label for="performed">Задание
+                                                выполнено</label></li>
+                                            <li>
+                                                <div class="rad-area  rad-unchecked"><span></span></div>
+                                                <input class="jcf-hidden" id="distribution" name="statuses"
+                                                       type="checkbox" value="distribution"><label
+                                                    for="distribution">Раздача</label></li>
+                                        </ul>
+                                        <footer><strong class="selected">Статус:<span class="selected-items"></span></strong><a
+                                                class="close" href="#">Применить</a><a class="btn-back" href="#">Отменить</a>
+                                        </footer>
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="open-close"><a class="opener" href="#">Исполнитель</a>
+
+                                <div class="slide js-slide-hidden">
+                                    <form action="#" class="manufacture">
+                                        <input type="hidden" name="performer_ids" value="[]">
+                                        <ul class="tabset">
+                                            <li><a class="letter letter-А active" href="#">А</a></li>
+                                            <li><a class="letter letter-Б " href="#">Б</a></li>
+                                            <li><a class="letter letter-В " href="#">В</a></li>
+                                            <li><a class="letter letter-Г " href="#">Г</a></li>
+                                            <li><a class="letter letter-Д " href="#">Д</a></li>
+                                            <li><a class="letter letter-Е " href="#">Е</a></li>
+                                            <li><a class="letter letter-Ж " href="#">Ж</a></li>
+                                            <li><a class="letter letter-З " href="#">З</a></li>
+                                            <li><a class="letter letter-И " href="#">И</a></li>
+                                            <li><a class="letter letter-К " href="#">К</a></li>
+                                            <li><a class="letter letter-Л " href="#">Л</a></li>
+                                            <li><a class="letter letter-М " href="#">М</a></li>
+                                            <li><a class="letter letter-Н " href="#">Н</a></li>
+                                            <li><a class="letter letter-О " href="#">О</a></li>
+                                            <li><a class="letter letter-П " href="#">П</a></li>
+                                            <li><a class="letter letter-Р " href="#">Р</a></li>
+                                            <li><a class="letter letter-С " href="#">С</a></li>
+                                            <li><a class="letter letter-Т " href="#">Т</a></li>
+                                            <li><a class="letter letter-У " href="#">У</a></li>
+                                            <li><a class="letter letter-Ф " href="#">Ф</a></li>
+                                            <li><a class="letter letter-Х " href="#">Х</a></li>
+                                            <li><a class="letter letter-Ц " href="#">Ц</a></li>
+                                            <li><a class="letter letter-Ч " href="#">Ч</a></li>
+                                            <li><a class="letter letter-Ш " href="#">Ш</a></li>
+                                            <li><a class="letter letter-Щ " href="#">Щ</a></li>
+                                            <li><a class="letter letter-Э " href="#">Э</a></li>
+                                            <li><a class="letter letter-Ю " href="#">Ю</a></li>
+                                            <li><a class="letter letter-Я " href="#">Я</a></li>
+                                        </ul>
+                                        <div class="tab-content">
+                                            <ul class="manufacturers-list">
+                                                <li>
+                                                    <div class="rad-area  rad-unchecked"><span></span></div>
+                                                    <input class="jcf-hidden" id="olgaarakelian-gmail-com"
+                                                           name="performer_ids[]" type="checkbox"
+                                                           value="55f29ff17365724e49460200"><label
+                                                        for="olgaarakelian-gmail-com">Аракелян Оля </label></li>
+                                                <li>
+                                                    <div class="rad-area  rad-unchecked"><span></span></div>
+                                                    <input class="jcf-hidden" id="yarstp-gmail-com"
+                                                           name="performer_ids[]" type="checkbox"
+                                                           value="55817d107365720fc4861200"><label
+                                                        for="yarstp-gmail-com">Архипов Степан</label></li>
+                                                <li>
+                                                    <div class="rad-area  rad-unchecked"><span></span></div>
+                                                    <input class="jcf-hidden" id="areshkovich-d-gmail-com"
+                                                           name="performer_ids[]" type="checkbox"
+                                                           value="5536085273657223ce7b0f00"><label
+                                                        for="areshkovich-d-gmail-com">Арешкович Данил</label></li>
+                                                <li>
+                                                    <div class="rad-area  rad-unchecked"><span></span></div>
+                                                    <input class="jcf-hidden" id="ardesign-i-ua"
+                                                           name="performer_ids[]" type="checkbox"
+                                                           value="53e4a17f0c231136fb0006bd"><label
+                                                        for="ardesign-i-ua">Абрахин Артем </label></li>
+                                            </ul>
+                                        </div>
+                                        <footer><strong class="selected">Участники:&nbsp;<span
+                                                class="selected-items"></span></strong><a class="close" href="#">Применить</a><a
+                                                class="btn-back" href="#">Отменить</a></footer>
+                                    </form>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a class="do-button js-new-task">Новый проект</a>
+
+                    <form action="#" class="search-form">
+                        <input id="search-input" type="search" value="">
+                    </form>
+                </div>
+                <div class="filter">
+                    <div style="display: none;"><strong class="title">Участники:</strong></div>
+                    <div style="display: none;"><strong class="title">Дата постановки:</strong></div>
+                    <div style="display: none;"><strong class="title">Статус:</strong></div>
+                </div>
+            </div-->
+            <div class="">
+                <table class="">
+                    <thead></thead>
+                    <tbody>
+                    <tr ng-repeat="item in pvc.state.data">
+                        <td>
+                            <span class="">
+                                <span class=""></span>
+                            </span>
+                        </td>
+                        <td>
+                            <span class="">
+                                <a class="" ui-sref="project({id: item._id})">{{item.title}}</a>
+                            </span>
+                        </td>
+                        <td>
+                            <!-- -->
+                            <span class="">
+                                <span class="">
+                                    {{item.authorId}}
+                                    <img alt="{{item.authorId}}"
+                                         src="http://static2.archivizer.com/uploads/images/image/file/55a3b3377365720e3bdd0000/mini_thumb_30x30_00_4.jpg"
+                                         title="{{item.author}}">
+                                </span>
+                            </span>
+                        </td>
+                        <td><span class="">Проверка задания</span></td>
+                        <td><span class="">08.10</span></td>
+                        <td><span class=""></span>
+                            <span class=""></span>
+                        </td>
+                        <td><span class=""></span></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <md-button class="md-raised md-primary md-button md-ink-ripple"
+               ng-click="pvc.showCreateProjectDialog()">Создать проект</md-button>
+</div>
+

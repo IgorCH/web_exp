@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="70px" height="70px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 3182 3182"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="477.269" y1="477.269" x2="2704.55" y2="2704.55">
+     <stop offset="0" stop-opacity="1" stop-color="#7FAAFF"/>
+     <stop offset="1" stop-opacity="1" stop-color="#3D7EFF"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_576039406672">
+   <circle fill="url(#id0)" cx="1591" cy="1591" r="1591"/>
+   <path fill="#256DFF" d="M3158 1865c-130,748 -782,1317 -1567,1317 -33,0 -65,-1 -97,-3l-791 -791 153 -389 -1 -518 738 738 0 -1601 227 -91 1338 1338z"/>
+   <path fill="white" stroke="black" stroke-width="90.8977" d="M1247 1999c0,191 -200,437 -391,437 -191,0 -392,-246 -392,-437l783 0z"/>
+   <path fill="white" stroke="black" stroke-width="90.8977" d="M1939 1991c0,191 -155,437 -346,437 -191,0 -346,-246 -346,-437l692 0z"/>
+   <path fill="white" stroke="black" stroke-width="90.8977" d="M2722 1999c0,191 -201,437 -392,437 -191,0 -391,-246 -391,-437l783 0z"/>
+   <polygon fill="white" stroke="black" stroke-width="90.8977" points="1910,1997 1731,1819 1638,1413 1548,1413 1455,1819 1275,1996 "/>
+   <path fill="white" stroke="black" stroke-width="90.8977" d="M1910 1164c0,149 -142,269 -317,269 -175,0 -317,-120 -317,-269 0,-148 142,-268 317,-268 175,0 317,120 317,268z"/>
+   <path fill="white" stroke="black" stroke-width="90.8977" d="M1820 527c0,191 -101,346 -227,346 -125,0 -227,-155 -227,-346l454 0z"/>
+   <path fill="white" stroke="black" stroke-width="90.8977" d="M997 1808c0,-4 0,-8 0,-12 0,-5 1,-9 1,-14l-2 0c-7,-129 -68,-301 -141,-301 -73,0 -133,172 -140,301l0 0 0 0c-1,9 -1,18 -1,26l4 0c14,53 71,92 138,92 68,0 124,-39 138,-92l3 0z"/>
+   <path fill="white" stroke="black" stroke-width="90.8977" d="M2471 1808c0,-4 0,-8 0,-12 1,-5 1,-9 1,-14l-1 0c-8,-129 -68,-301 -141,-301 -73,0 -133,172 -141,301l0 0 0 0c0,9 -1,18 -1,26l5 0c14,53 70,92 138,92 67,0 124,-39 138,-92l2 0z"/>
+   <path fill="white" stroke="black" stroke-width="90.8977" d="M1729 2564c0,68 -61,122 -136,122 -75,0 -136,-54 -136,-122 0,-67 61,-121 136,-121 75,0 136,54 136,121z"/>
+  </g>
+ </g>
+</svg>

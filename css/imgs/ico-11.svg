@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="70px" height="70px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 1747 1747"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="262.121" y1="262.121" x2="1485.36" y2="1485.36">
+     <stop offset="0" stop-opacity="1" stop-color="#7FAAFF"/>
+     <stop offset="1" stop-opacity="1" stop-color="#3D7EFF"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_634213215184">
+   <circle fill="url(#id0)" cx="874" cy="874" r="874"/>
+   <path fill="#256DFF" d="M1743 787c1,6 1,12 2,17l0 4c1,7 1,13 1,20l0 2c1,6 1,14 1,21l0 0 0 1c0,7 0,14 0,22 0,7 0,15 0,22l0 0 0 1c0,7 0,14 -1,22l0 0c0,7 0,14 -1,21l0 2c-1,7 -1,14 -2,20l0 3c-1,6 -2,13 -2,19l-1 2c-1,7 -1,13 -2,20l-1 2c-1,7 -2,13 -3,19l-1 4c-1,6 -2,12 -3,17l-1 4c-1,6 -2,12 -4,18l0 3c-2,6 -3,12 -5,17l-1 5c-1,5 -3,11 -4,16l-1 5c-2,5 -4,10 -5,16l-2 4c-1,5 -3,11 -5,16l-1 5c-2,5 -4,10 -6,14l-2 7c-1,4 -3,9 -5,13l-3 7c-1,4 -3,8 -5,13l-3 6c-1,4 -3,8 -5,13l-3 7c-2,4 -4,8 -6,12l-3 7c-2,4 -4,8 -6,12l-4 7c-2,4 -4,7 -5,10 -2,3 -4,6 -5,9 -2,3 -4,7 -6,10 -2,4 -4,8 -6,12l-4 5c-3,6 -6,11 -9,16l-2 2c-3,6 -7,11 -10,17l-1 0c-30,46 -65,89 -103,128l0 0c-122,125 -280,213 -457,247l-369 -346 75 0 0 -50 -250 -250 774 0 0 -774 471 471 0 5z"/>
+   <rect fill="white" x="504" y="317" width="774" height="774"/>
+   <line fill="none" stroke="black" stroke-width="49.922" x1="829" y1="440" x2="1178" y2= "440" />
+   <line fill="none" stroke="black" stroke-width="49.922" x1="829" y1="515" x2="1178" y2= "515" />
+   <line fill="none" stroke="black" stroke-width="49.922" x1="829" y1="665" x2="1178" y2= "665" />
+   <line fill="none" stroke="black" stroke-width="49.922" x1="829" y1="740" x2="1178" y2= "740" />
+   <line fill="none" stroke="black" stroke-width="49.922" x1="829" y1="890" x2="1178" y2= "890" />
+   <line fill="none" stroke="black" stroke-width="49.922" x1="829" y1="965" x2="1178" y2= "965" />
+   <path fill="none" stroke="black" stroke-width="49.922" d="M1278 266l0 873m50 -50l-874 0m50 50l0 -873m-50 49l874 0"/>
+   <polygon fill="white" points="754,1389 754,1214 1028,1214 1028,1389 1103,1389 891,1589 679,1389 "/>
+   <path fill="none" stroke="black" stroke-width="49.922" d="M1028 1164l0 225 75 0 -211 200 -213 -200 75 0 0 -225m-50 50l374 0"/>
+   <rect fill="none" stroke="black" stroke-width="49.922" x="604" y="415" width="125" height="125"/>
+   <rect fill="none" stroke="black" stroke-width="49.922" x="604" y="640" width="125" height="125"/>
+   <rect fill="none" stroke="black" stroke-width="49.922" x="604" y="865" width="125" height="125"/>
+  </g>
+ </g>
+</svg>

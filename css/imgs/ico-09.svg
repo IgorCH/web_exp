@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="120px" height="120px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 24509 24509"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="3676.28" y1="3676.28" x2="20832.3" y2="20832.3">
+     <stop offset="0" stop-opacity="1" stop-color="#7FAAFF"/>
+     <stop offset="1" stop-opacity="1" stop-color="#3D7EFF"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_634198514240">
+   <circle fill="url(#id0)" cx="12254" cy="12254" r="12254"/>
+   <path fill="#256DFF" d="M24211 9561c194,867 298,1768 298,2693 0,6768 -5487,12255 -12255,12255 -855,0 -1690,-88 -2497,-255l-4859 -4860 646 408c339,195 962,216 1559,143 1620,-220 3176,-547 4633,-1039 824,-285 965,-626 646,-947l-7 -846 -266 -434c-296,-1402 -1449,-2187 -2657,-2274l0 -1 0 -1505 3800 0 0 1021 -1328 0 0 817 4085 0 0 -817 -1328 0 0 -1021 4902 0 0 -7965 4628 4627zm-19686 9460l0 0 0 0 0 0z"/>
+   <rect fill="white" x="8349" y="5000" width="11234" height="7965"/>
+   <line fill="none" stroke="black" stroke-width="408.424" x1="8655" y1="8881" x2="19275" y2= "8881" />
+   <ellipse fill="white" cx="6512" cy="6316" rx="980" ry="300"/>
+   <path fill="none" stroke="black" stroke-width="408.424" stroke-linecap="round" stroke-linejoin="round" d="M5531 6280c-145,-9 439,-264 980,-264 542,0 981,118 981,264 0,194 -585,351 -1307,351 -722,0 -1307,-157 -1307,-351"/>
+   <path fill="white" stroke="black" stroke-width="408.424" stroke-linecap="round" stroke-linejoin="round" d="M7492 17459c0,195 -586,352 -1307,352 -722,0 -1410,-158 -1410,-352l0 -11180c0,194 688,352 1410,352 721,0 1307,-157 1307,-351l0 11179z"/>
+   <path fill="none" stroke="black" stroke-width="408.424" d="M19480 4592l0 8782m408 -409l-11846 0m205 205l0 -8578m-409 408l12050 0"/>
+   <polygon fill="white" stroke="black" stroke-width="408.424" points="14782,13987 14782,12965 13148,12965 13148,13987 11923,13987 11923,14816 16008,14804 16008,13987 "/>
+   <line fill="none" stroke="black" stroke-width="408.424" x1="13966" y1="5342" x2="13966" y2= "12490" />
+   <ellipse fill="white" cx="8472" cy="7578" rx="980" ry="300"/>
+   <path fill="none" stroke="black" stroke-width="408.424" stroke-linecap="round" stroke-linejoin="round" d="M7492 7541c-146,-8 438,-263 980,-263 541,0 980,118 980,263 0,195 -585,352 -1307,352 -722,0 -1307,-157 -1307,-352"/>
+   <path fill="white" stroke="black" stroke-width="408.424" stroke-linecap="round" stroke-linejoin="round" d="M9472 18631c0,194 -605,442 -1327,442 -722,0 -1328,-248 -1328,-442l0 -11180c0,194 606,442 1328,442 722,0 1327,-248 1327,-442l0 11180z"/>
+   <path fill="none" stroke="black" stroke-width="408.424" d="M11228 17719c248,0 452,-285 452,-633"/>
+   <line fill="none" stroke="black" stroke-width="408.424" x1="9841" y1="17719" x2="11228" y2= "17719" />
+   <line fill="none" stroke="black" stroke-width="408.424" x1="9841" y1="18352" x2="9841" y2= "17493" />
+   <path fill="white" stroke="black" stroke-width="408.424" d="M12382 17959c319,321 178,662 -646,947 -1457,492 -3013,819 -4633,1039 -597,73 -1220,52 -1559,-143l-855 -540c-698,-564 930,-1439 1296,-1662l46 -560 326 -403 76 -234c982,-2872 5078,-2557 5676,276l266 434 7 846z"/>
+   <path fill="none" stroke="black" stroke-width="408.424" d="M7044 18849l366 -1961c1082,-1973 3104,-1915 3980,-1268"/>
+   <path fill="none" stroke="black" stroke-width="408.424" d="M6046 18043c479,94 772,362 998,693 3081,206 2527,241 5496,-828"/>
+   <polyline fill="none" stroke="black" stroke-width="408.424" points="14680,11777 13966,12490 13253,11777 "/>
+   <polyline fill="none" stroke="black" stroke-width="408.424" points="14680,6055 13966,5342 13253,6055 "/>
+   <polyline fill="none" stroke="black" stroke-width="408.424" points="18461,8203 19276,8881 18461,9630 "/>
+  </g>
+ </g>
+</svg>

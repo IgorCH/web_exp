@@ -1,0 +1,99 @@
+<div id="scenes">
+    <md-toolbar>
+        <div layout="row">
+            <div layout="column">
+                <span>Исполнитель</span>
+                <md-select ng-model="svc.state.filter.executioner" aria-label="executioner">
+                    <md-option>Игорь</md-option>
+                    <md-option>Вася</md-option>
+                </md-select>
+            </div>
+            <div layout="column">
+                <span>Помещение</span>
+                <md-select ng-model="svc.state.filter.room"  aria-label="room">
+                    <md-option>Кухня</md-option>
+                    <md-option>Спальня</md-option>
+                </md-select>
+            </div>
+            <div layout="column">
+                <span>Стиль</span>
+                <md-select ng-model="svc.state.filter.style"  aria-label="style">
+                    <md-option>Классический</md-option>
+                    <md-option>Современный</md-option>
+                </md-select>
+            </div>
+            <div layout="column">
+                <span>Гамма</span>
+                <md-select ng-model="svc.state.filter.gamma"  aria-label="gamma">
+                    <md-option>Яркая</md-option>
+                    <md-option>Пастельная</md-option>
+                </md-select>
+            </div>
+            <div layout="column">
+                <span>Тон</span>
+                <md-select ng-model="svc.state.filter.tone"  aria-label="tone">
+                    <md-option>Монотонная</md-option>
+                    <md-option>Контрастная</md-option>
+                </md-select>
+            </div>
+            <div layout="column">
+                <span>Основной цвет</span>
+                <md-select ng-model="svc.state.filter.main_color"  aria-label="executioner">
+                    <md-option>Кухня</md-option>
+                    <md-option>Спальня</md-option>
+                </md-select>
+            </div>
+            <div layout="column">
+                <span>Цвет акцента</span>
+                <md-select ng-model="svc.state.filter.accent_color"  aria-label="executioner">
+                    <md-option>Кухня</md-option>
+                    <md-option>Спальня</md-option>
+                </md-select>
+            </div>
+            <div layout="column">
+                <span>Материал</span>
+                <md-select ng-model="svc.state.filter.material"  aria-label="executioner">
+                    <md-option>Кухня</md-option>
+                    <md-option>Спальня</md-option>
+                </md-select>
+            </div>
+        </div>
+    </md-toolbar>
+
+
+    <md-content class="md-padding" layout="row" layout-wrap layout-align="center start">
+        <div flex="25" layout="column" ng-repeat="scene in svc.state.scenes">
+
+            <md-card>
+                <md-card-header>
+                    <md-card-avatar>
+                        <md-icon class="md-avatar-icon" md-svg-icon="img/icons/menu.svg"></md-icon>
+                        <ng-md-icon icon="polymer" size="30""></ng-md-icon>
+
+                    </md-card-avatar>
+                    <md-card-header-text>
+                        <span class="md-title">Title</span>
+                        <span class="md-subhead">subhead</span>
+                    </md-card-header-text>
+                </md-card-header>
+                <img ng-src="{{svc.getImgPath(scene.url)}}" class="md-card-image" alt="Washed Out">
+                <md-card-title>
+                    <md-card-title-text>
+                        <span class="md-headline">In-card actions</span>
+                        <span class="md-subhead">Description</span>
+                    </md-card-title-text>
+                </md-card-title>
+                <md-card-actions layout="row" layout-align="start center">
+                    <md-button>Action 1</md-button>
+                    <md-button>Action 2</md-button>
+                </md-card-actions>
+                <md-card-content>
+                    <p>
+                        The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+                        two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+                    </p>
+                </md-card-content>
+            </md-card>
+        </div>
+    </md-content>
+</div>
