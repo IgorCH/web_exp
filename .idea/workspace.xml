@@ -2,11 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5062ea48-90d6-464e-9d56-07ff4d981956" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-2.2.0.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/help_view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/models_view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/popups/new_project.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/popups/new_task.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/popups/sign_in.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/popups/sign_up.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/profile_view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/project_view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/projects_view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/scenes_view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/task_view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/tasks_view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index copy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/help_view_controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/models_view_controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/popups/new_project.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/popups/new_task.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/popups/sign_in.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/popups/sign_up.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/profile_view_controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/project_view_controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/projects_view_controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/scenes_view_controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/task_view_controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/tasks_view_controller.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets_compiled/js/app.min.js" afterPath="$PROJECT_DIR$/assets_compiled/js/app.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/main_view.html" afterPath="$PROJECT_DIR$/html/main_view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/main_view_controller.js" afterPath="$PROJECT_DIR$/js/controllers/main_view_controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web_exp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +59,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5619597">
-                  <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+                <state vertical-scroll-proportion="0.79820627">
+                  <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -42,8 +69,8 @@
           <file leaf-file-name="main_view.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/main_view.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.625">
-                  <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+                <state vertical-scroll-proportion="-5.0">
+                  <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -53,7 +80,7 @@
             <entry file="file://$PROJECT_DIR$/js/controllers/root_controller.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -63,7 +90,7 @@
             <entry file="file://$PROJECT_DIR$/js/controllers/main_view_controller.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -76,8 +103,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0626741">
-                  <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+                <state vertical-scroll-proportion="-2.9893618">
+                  <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -94,21 +121,77 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="package_json" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GulpTreeLayoutManager">
+    <layout place="tools.popup">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/gruntfile.js" />
+        <option value="$PROJECT_DIR$/js/controllers/data_sources.js" />
+        <option value="$PROJECT_DIR$/js/controllers/data_sources.json" />
+        <option value="$PROJECT_DIR$/js/controllers/data_source.js" />
+        <option value="$PROJECT_DIR$/js/controllers/_data_portfolio.json" />
+        <option value="$PROJECT_DIR$/js/controllers/main_view_controller.js" />
+        <option value="$PROJECT_DIR$/js/controllers/root_controller.js" />
         <option value="$PROJECT_DIR$/html/main_view.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true">
+    <gruntfile path="$PROJECT_DIR$/gruntfile.js">
+      <alias-task name="app_prod" info="Alias for &quot;uglify:app_prod&quot; task." file-path="$PROJECT_DIR$/gruntfile.js">
+        <dependency value="uglify:app_prod" />
+      </alias-task>
+      <alias-task name="default" info="Alias for &quot;concat:dev&quot; task." file-path="$PROJECT_DIR$/gruntfile.js">
+        <dependency value="concat:dev" />
+      </alias-task>
+      <alias-task name="js_vendor" info="Alias for &quot;uglify:vendor&quot; task." file-path="$PROJECT_DIR$/gruntfile.js">
+        <dependency value="uglify:vendor" />
+      </alias-task>
+      <alias-task name="min_all_css" info="Alias for &quot;cssmin:target_prod&quot; task." file-path="$PROJECT_DIR$/gruntfile.js">
+        <dependency value="cssmin:target_prod" />
+      </alias-task>
+      <alias-task name="min_vendor_css" info="Alias for &quot;cssmin:target_dev&quot; task." file-path="$PROJECT_DIR$/gruntfile.js">
+        <dependency value="cssmin:target_dev" />
+      </alias-task>
+      <core-task name="concat" info="Concatenate files." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-concat/tasks/concat.js" multi="true">
+        <target value="dev" />
+        <target value="prod" />
+      </core-task>
+      <core-task name="cssc" info="Your task description goes here." file-path="$PROJECT_DIR$/node_modules/grunt-cssc/tasks/cssc.js" multi="true" />
+      <core-task name="cssmin" info="Minify CSS" file-path="$PROJECT_DIR$/node_modules/grunt-contrib-cssmin/tasks/cssmin.js" multi="true">
+        <target value="target_prod" />
+        <target value="target_dev" />
+      </core-task>
+      <core-task name="htmlhint" info="Validate html files with htmlhint." file-path="$PROJECT_DIR$/node_modules/grunt-htmlhint/tasks/htmlhint.js" multi="true" />
+      <core-task name="uglify" info="Minify files with UglifyJS." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-uglify/tasks/uglify.js" multi="true">
+        <target value="app_dev" />
+        <target value="app_prod" />
+        <target value="vendor" />
+      </core-task>
+      <core-task name="watch" info="Run predefined tasks whenever watched files change." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-watch/tasks/watch.js" multi="false">
+        <target value="js" />
+        <target value="css" />
+      </core-task>
+    </gruntfile>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
@@ -191,6 +274,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_exp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_exp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -223,6 +324,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_exp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_exp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets_compiled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_exp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_exp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets_compiled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -231,10 +368,18 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gruntfile.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="recentsLimit" value="5" />
+    <property name="js.buildTools.grunt.node_interpreter" value="/usr/local/bin/node" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="/usr/local/lib/node_modules/grunt-cli" />
+    <property name="restartRequiresConfirmation" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/controllers" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web_exp/index.html">
@@ -269,6 +414,13 @@
       <option name="filePath" />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <pass-parent-env-vars value="true" />
+      <force value="false" />
+      <verbose value="false" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -278,8 +430,17 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    <configuration default="false" name="Unnamed" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <gruntfile value="$PROJECT_DIR$/gruntfile.js" />
+      <pass-parent-env-vars value="true" />
+      <force value="false" />
+      <verbose value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Grunt.js.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -288,6 +449,9 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5062ea48-90d6-464e-9d56-07ff4d981956" name="Default" comment="" />
@@ -297,18 +461,28 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="23" width="1440" height="836" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13460183" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16701902" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33064517" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -316,7 +490,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -336,44 +509,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/imgs/ico-01.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/framework/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/contact_us_view_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/_data_portfolio.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33426183">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5084746">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/root_controller.js">
+    <entry file="file://$PROJECT_DIR$/js/controllers/data_source.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/main_view_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/main_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.15889831">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -383,18 +572,58 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/html/main_view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5619597">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/root_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/main_view_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0626741">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        <state vertical-scroll-proportion="-2.9893618">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets_compiled/js/vendors.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets_compiled/js/app.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79820627">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
           <folding />
         </state>
       </provider>
