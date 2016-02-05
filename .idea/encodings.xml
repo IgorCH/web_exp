@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/assets_compiled/js/app.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/main.css" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/gruntfile.js" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/html/main_view.html" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/index.html" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/js/controllers/main_view_controller.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/js/controllers/root_controller.js" charset="UTF-8" />
