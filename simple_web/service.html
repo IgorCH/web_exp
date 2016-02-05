@@ -1,0 +1,494 @@
+<!--div-- id="main">
+    <div class="menu-wrapper">
+        <div class="content-wrapper">
+            <div class="menu-holder">
+                <nav class="holder">
+                    <ul class="menu">
+                        <li><a class="scroll-link" href="#steps">Визуализация интерьера</a></li>
+                        <li><a class="scroll-link" href="#design-section">Дизайн</a></li>
+                        <li><a class="scroll-link" href="#scheme-section">Чертежная документация</a></li>
+                        <li><a class="scroll-link" href="#modeling">Моделирование объектов</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <section class="section calculator">
+        <h2>
+            Калькулятор расчета заказа
+        </h2>
+        <span class="text-description">Опции в правой колонке нужны в случае, если у вас нет полного технического задания и, вы хотите чтобы мы сами дополнили его</span>
+
+        <form accept-charset="UTF-8" action="/account/tasks/new" class="simple_form calculator-form" id="new_article"
+              method="get" novalidate="novalidate">
+            <div style="display:none"><input name="utf8" type="hidden" value="✓"></div>
+            <fieldset>
+                <div class="room-space"><label for="room-space">Площадь помещения по полу:</label>
+
+                    <div class="text"><input id="room-space" name="room-space" type="text" value="0"><span class="unit">м2</span>
+                    </div>
+                </div>
+
+                <div class="form-container add">
+                    <div class="values-wrapper">
+                        <ul class="select-list left-list">
+                            <li class="add-options">
+                                <div class="col">
+                                    <div class="chk-area chk-focus chk-unchecked"><span></span></div>
+                                    <label for="item6">Номер купона для скидки</label></div>
+                                <span class="price">-0$</span><input class="code" id="discount-code" type="text"
+                                                                     value=""></li>
+                            <li class="add-options">
+                                <div class="col">
+                                    <div class="chk-area chk-focus chk-unchecked"><span></span></div>
+                                    <label for="adjustments-count">Количество вносимых корректировок</label></div>
+                                <span class="price">+25$</span>
+
+                                <div class="amount"><a class="delete" href="#" id="adjustments-count-less"></a>
+
+                                    <div class="text"><input id="adjustments-count" type="text" value="0"><span
+                                            class="unit">шт</span></div>
+                                    <a class="add" href="#" id="adjustments-count-more"></a></div>
+                            </li>
+                            <li class="add-options">
+                                <div class="col">
+                                    <div class="chk-area chk-focus chk-unchecked"><span></span></div>
+                                    <label for="modelings-count">Моделирование объектов</label></div>
+                                <span class="price">+60$</span>
+
+                                <div class="amount"><a class="delete" href="#" id="modelings-count-less"></a>
+
+                                    <div class="text"><input id="modelings-count" type="text" value="0"><span
+                                            class="unit">шт</span></div>
+                                    <a class="add" href="#" id="modelings-count-more"></a></div>
+                            </li>
+                            <li class="add-options">
+                                <div class="col">
+                                    <div class="chk-area chk-focus chk-unchecked"><span></span></div>
+                                    <label for="high-value-image">Изображение в высоком разрешении</label></div>
+                                <span class="price">+20$</span>
+
+                                <div class="amount"><a class="delete" href="#" id="high-value-image-less"></a>
+
+                                    <div class="text"><input id="high-value-image" type="text" value="0"><span
+                                            class="unit">шт</span></div>
+                                    <a class="add" href="#" id="high-value-image-more"></a></div>
+                            </li>
+                            <li>
+                                <div class="col">
+                                    <div class="chk-area chk-focus chk-unchecked"><span></span></div>
+                                    <input checked="checked" class="jcf-hidden" id="initial-scene-with-settings"
+                                           type="checkbox"><label for="initial-scene-with-settings">Исходная сцена с
+                                    настройками</label></div>
+                                <span class="price">+0$</span></li>
+                            <li>
+                                <div class="col">
+                                    <div class="chk-area chk-unchecked chk-focus"><span></span></div>
+                                    <input checked="checked" class="jcf-hidden" id="drawings" type="checkbox"><label
+                                        for="drawings">Чертежная документация</label></div>
+                                <span class="price">+0$</span></li>
+                        </ul>
+                        <ul class="select-list">
+                            <li>
+                                <div class="col">
+                                    <div class="chk-area chk-unchecked chk-focus"><span></span></div>
+                                    <input checked="checked" class="jcf-hidden" id="furniture-plan"
+                                           type="checkbox"><label for="furniture-plan">Разработка плана расстановки
+                                    мебели</label></div>
+                                <span class="price">+0$</span></li>
+                            <li>
+                                <div class="col">
+                                    <div class="chk-area chk-focus chk-unchecked"><span></span></div>
+                                    <input checked="checked" class="jcf-hidden" id="ceiling-plan" type="checkbox"><label
+                                        for="item13">Дизайн потолков</label></div>
+                                <span class="price">+0$</span></li>
+                            <li>
+                                <div class="col">
+                                    <div class="chk-area chk-focus chk-unchecked"><span></span></div>
+                                    <input checked="checked" class="jcf-hidden" id="lighting-plan"
+                                           type="checkbox"><label for="item14">Дизайн размещения освещения</label></div>
+                                <span class="price">+0$</span></li>
+                            <li>
+                                <div class="col">
+                                    <div class="chk-area chk-unchecked chk-focus"><span></span></div>
+                                    <input checked="checked" class="jcf-hidden" id="coverings-plan"
+                                           type="checkbox"><label for="item15">Дизайн напольных покрытий</label></div>
+                                <span class="price">+0$</span></li>
+                            <li>
+                                <div class="col">
+                                    <div class="chk-area chk-unchecked chk-focus"><span></span></div>
+                                    <input checked="checked" class="jcf-hidden" id="walls-plan" type="checkbox"><label
+                                        for="item16">Дизайн отделки стен</label></div>
+                                <span class="price">+0$</span></li>
+                            <li>
+                                <div class="col">
+                                    <div class="chk-area chk-unchecked chk-focus"><span></span></div>
+                                    <input checked="checked" class="jcf-hidden" id="select-facilities"
+                                           type="checkbox"><label for="item17">Подбор объектов наполнения</label></div>
+                                <span class="price">+0$</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <input name="authenticity_token" type="hidden" value="Z+e/vIhvJ1/DPWNWyi8LyKcFNMTZJCqtmOX9CXpXccA=">
+
+                <div class="subtotal no-fields"><span class="summ">Сумма заказа:<strong>0$</strong></span><input
+                        class="" data-disable-with="Отправляем..." name="commit" type="submit"
+                        value="Поставить задание"></div>
+            </fieldset>
+        </form>
+    </section>
+    <div class="section steps" id="steps">
+        <h2>
+            Визуализация интерьера по техническому заданию
+        </h2>
+        <span class="text-description">Процесс работы над заданием проходит за 6 этапов. Вы всегда будете знать на каком из них находится задача в текущий момент</span>
+        <ul>
+            <li>
+                <div class="icon icon-ico-11"></div>
+                <h3>
+                    <span>1. Постановка задания</span>
+                </h3>
+
+                <p>
+                    Вы загружаете план расстановки мебели, потолков, освещения, развертки стен и выбираете наполнение
+                </p>
+
+            </li>
+            <li>
+                <div class="icon icon-ico-12"></div>
+                <h3>
+                    <span>2. Проверка и оплата задания</span>
+                </h3>
+
+                <p>
+                    Мы проверяем задание, уточняем детали необходимые для корректного выполнения задания и получаем
+                    финальную стоимость
+                </p>
+
+            </li>
+            <li class="third-step">
+                <div class="icon icon-ico-13"></div>
+                <h3>
+                    <span>3. Выполнение задачи</span>
+                </h3>
+
+                <p>
+                    После оплаты счета приступаем к работе над задачей, самостоятельно дополняя недостающие части
+                </p>
+
+            </li>
+            <li class="to-left fourth-step">
+                <div class="icon icon-ico-16"></div>
+                <h3>
+                    <span>4. Промежуточный рендер</span>
+                </h3>
+
+                <p>
+                    Вы получаете изображения, просчитанные в невысоком качестве, для того, чтобы проверить их
+                    соответствие заданию
+                </p>
+
+            </li>
+            <li class="to-left bypassing fifth-step">
+                <div class="icon icon-ico-15"></div>
+                <h3>
+                    <span>5. Внесение корректировок</span>
+                </h3>
+
+                <p>
+                    После вашей рецензии мы вносим все необходимые изменения и после этого делаем еще один промежуточный
+                    рендер
+                </p>
+
+            </li>
+            <li class="to-left sixth-step">
+                <div class="icon icon-ico-14"></div>
+                <h3>
+                    <span>6. Финальный рендер</span>
+                </h3>
+
+                <p>
+                    Если корректировки не требуются, мы просчитываем изображения в максимальном качестве и закрываем
+                    задачу
+                </p>
+
+            </li>
+        </ul>
+    </div>
+    <section class="section design-section" id="design-section">
+        <div class="design-section-content">
+            <h2>
+                Дизайн - визуализация без технического задания
+            </h2>
+            <span class="text-description">Наши дизайнеры и архитекторы воссоздадут и технически доработают любую вашу идею и замысел, опираясь лишь на план и пожелания</span><img
+                alt="image description" class="img-design" height="369" src="/images/img16.jpg" width="1168">
+            <ul class="design-list">
+                <li>
+                    <div class="icon icon-ico-17"></div>
+                    <h3>
+                        Функциональное зонирование
+                    </h3>
+
+                    <p>
+                        Мы создаем простые и логичные планировочные решения, грамотно расставляем мебель и предметы
+                        интерьера
+                    </p>
+
+                </li>
+                <li>
+                    <div class="icon icon-ico-18"></div>
+                    <h3>
+                        Интерьер “под ключ”
+                    </h3>
+
+                    <p>
+                        Мы выполним проект, включающий в себя все стадии: от архитектурных решений до декорирования
+                    </p>
+
+                </li>
+                <li>
+                    <div class="icon icon-ico-19"></div>
+                    <h3>
+                        Подбор наполнения
+                    </h3>
+
+                    <p>
+                        Мы используем только реально существующие предметы интерьера, поэтому у вас будет набор готовых
+                        спецификаций
+                    </p>
+
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section scheme-section" id="scheme-section">
+        <h2>
+            Чертежная документация для реализации проекта
+        </h2>
+        <span class="text-description">Наши архитекторы и инженеры подготовят комплект чертежной документации к эскизному проекту для его дальнейшего воплощения</span>
+
+        <div class="scheme-holder">
+            <div class="column">
+                <h3>
+                    Список чертежной документации
+                </h3>
+                <ol class="scheme-list">
+                    <li>
+                        Схема функционального зонирования (перепланировка, расстановка мебели)
+                    </li>
+                    <li>
+                        Схема демонтажа простенков
+                    </li>
+                    <li>
+                        Схема монтажа стен
+                    </li>
+                    <li>
+                        Экспликация помещений
+                    </li>
+                    <li>
+                        Схема монтажа потолков
+                    </li>
+                    <li>
+                        Разрез потолков
+                    </li>
+                    <li>
+                        Схема монтажа лепнины
+                    </li>
+                    <li>
+                        Схема размещения осветительных приборов
+                    </li>
+                    <li>
+                        Схема размещения групп включения, их привязка и описание
+                    </li>
+                    <li>
+                        Схема размещения розеток, электрических, слаботочных выводов с привязками
+                    </li>
+                    <li>
+                        План привязки сантехники
+                    </li>
+                    <li>
+                        Схема кондиционирования (расположение кондиционеров и вытяжек)
+                    </li>
+                    <li>
+                        Схема открывания дверей
+                    </li>
+                    <li>
+                        Схема укладки напольных покрытий
+                    </li>
+                    <li>
+                        Схема укладки системы теплого пола
+                    </li>
+                    <li>
+                        Развертки по стенам (схема раскладки плитки, площади покрытий по стенам)
+                    </li>
+                </ol>
+            </div>
+            <div class="column column-right">
+                <div class="scheme-gallery owl-carousel owl-theme" style="opacity: 1; display: block;">
+                    <div class="owl-wrapper-outer">
+                        <div class="owl-wrapper" style="width: 18496px; left: -1820.25741795222px; display: block;">
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static3.archivizer.com/uploads/slides/slide/file/52dd0275dc3fffb892000d5c/big_thumb_568x533_1_zonirovanie.jpg"
+                                                       width="568"></div>
+                            </div>
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static4.archivizer.com/uploads/slides/slide/file/52dd0266dc3fffdab9000c29/big_thumb_568x533_2_demontag.jpg"
+                                                       width="568"></div>
+                            </div>
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static2.archivizer.com/uploads/slides/slide/file/52dd0259dc3fff8ac5000d5b/big_thumb_568x533_3_montag.jpg"
+                                                       width="568"></div>
+                            </div>
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static2.archivizer.com/uploads/slides/slide/file/52dd024bdc3fff303d000d5a/big_thumb_568x533_4_explikacia.jpg"
+                                                       width="568"></div>
+                            </div>
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static1.archivizer.com/uploads/slides/slide/file/52dd023edc3fffb0f1000d59/big_thumb_568x533_5_potolki.jpg"
+                                                       width="568"></div>
+                            </div>
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static0.archivizer.com/uploads/slides/slide/file/52dd022adc3ffff48d000c28/big_thumb_568x533_6_razrez_potolkov.jpg"
+                                                       width="568"></div>
+                            </div>
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static3.archivizer.com/uploads/slides/slide/file/52dd021ddc3fffafd4000c27/big_thumb_568x533_7_lepnina.jpg"
+                                                       width="568"></div>
+                            </div>
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static1.archivizer.com/uploads/slides/slide/file/52dd020edc3fff9b36000ced/big_thumb_568x533_8_osvet.jpg"
+                                                       width="568"></div>
+                            </div>
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static1.archivizer.com/uploads/slides/slide/file/52dd01ffdc3fff010e000c26/big_thumb_568x533_9_vkluch.jpg"
+                                                       width="568"></div>
+                            </div>
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static2.archivizer.com/uploads/slides/slide/file/52dd01eedc3fff50d6000b6b/big_thumb_568x533_10_rozetki.jpg"
+                                                       width="568"></div>
+                            </div>
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static1.archivizer.com/uploads/slides/slide/file/52dd01dfdc3fff6dc1000c25/big_thumb_568x533_11_santeh.jpg"
+                                                       width="568"></div>
+                            </div>
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static0.archivizer.com/uploads/slides/slide/file/52dd01cfdc3fffa613000d58/big_thumb_568x533_12_kondic.jpg"
+                                                       width="568"></div>
+                            </div>
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static2.archivizer.com/uploads/slides/slide/file/52dd01bddc3fff4407000cea/big_thumb_568x533_13_dveri.jpg"
+                                                       width="568"></div>
+                            </div>
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static4.archivizer.com/uploads/slides/slide/file/52dd01b0dc3fffdd49000ce9/big_thumb_568x533_14_pol.jpg"
+                                                       width="568"></div>
+                            </div>
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static3.archivizer.com/uploads/slides/slide/file/52dd01a2dc3fff54a7000ce8/big_thumb_568x533_15_tepliy_pol.jpg"
+                                                       width="568"></div>
+                            </div>
+                            <div class="owl-item" style="width: 578px;">
+                                <div class="item"><img alt="" height="533"
+                                                       src="http://static5.archivizer.com/uploads/slides/slide/file/52dd0194dc3ffffe47000ce7/big_thumb_568x533_16_razvertka.jpg"
+                                                       width="568"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-controls clickable">
+                        <div class="owl-pagination">
+                            <div class="owl-page"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                            <div class="owl-page active"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-download">
+                    <a href="/download/sample-project.zip">Скачать пример проекта</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section modeling" id="modeling">
+        <div class="modeling-section-content">
+            <h2>
+                Моделирование объектов
+            </h2>
+            <span class="text-description">Мы можем изготовить трехмерную фотореалистичную модель любого реального объекта или создать модель проектируемого прототипа</span>
+
+            <div class="modeling-holder">
+                <div class="img-model">
+                    <img alt="image description" height="414" src="/images/img17.jpg" width="431">
+                </div>
+                <ul class="modeling-list">
+                    <li>
+                        <div class="icon icon-ico-20"></div>
+                        <div class="description">
+                            <h3>
+                                Для производителей предметов интерьера
+                            </h3>
+
+                            <p>
+                                Наличие трехмерной модели - это гарантированное увеличение популярности и, как
+                                следствие, увеличение продаж
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon icon-ico-21"></div>
+                        <div class="description">
+                            <h3>
+                                Для архитекторов и дизайнеров
+                            </h3>
+
+                            <p>
+                                Дизайн с уникальными предметами выделяется из однотипных рисунков, в которых
+                                используются модели из общего доступа
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon icon-ico-22"></div>
+                        <div class="description">
+                            <h3>
+                                Для промышленных дизайнеров
+                            </h3>
+
+                            <p>
+                                Для создания прототипа любого объекта, 3d моделирование является следующим шагом после
+                                скетчевых набросков
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</div-->

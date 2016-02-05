@@ -1,0 +1,61 @@
+<div id="portfolio">
+
+    <md-tabs md-dynamic-height md-swipe-content>
+        <md-tab label="{{pvc.translations.menu.all}}">
+            <md-content layout-padding>
+                <md-grid-list md-cols-gt-md="12" md-cols-sm="3" md-cols-md="8"
+                              md-row-height-gt-md="1:1" md-row-height="4:3"
+                              md-gutter-gt-md="16px" md-gutter-gt-sm="8px" md-gutter="4px">
+                    <md-grid-tile ng-repeat="tile in pvc.colorTiles"
+                                  ng-style="{'background': tile.color}"
+                                  md-colspan-gt-sm="{{tile.colspan}}"
+                                  md-rowspan-gt-sm="{{tile.rowspan}}">
+                    </md-grid-tile>
+                </md-grid-list>
+            </md-content>
+        </md-tab>
+        <md-tab label="{{pvc.translations.menu.models}}">
+            <md-content layout-padding>
+                <md-grid-list md-cols-gt-md="12" md-cols-sm="3" md-cols-md="8"
+                              md-row-height-gt-md="1:1" md-row-height="4:3"
+                              md-gutter-gt-md="16px" md-gutter-gt-sm="8px" md-gutter="4px">
+                    <md-grid-tile ng-repeat="tile in pvc.colorTiles"
+                                  ng-style="{'background': tile.color}"
+                                  md-colspan-gt-sm="{{tile.colspan}}"
+                                  md-rowspan-gt-sm="{{tile.rowspan}}">
+                    </md-grid-tile>
+                </md-grid-list>
+            </md-content>
+        </md-tab>
+        <md-tab label="{{pvc.translations.menu.interiors}}">
+            <md-content layout-padding>
+                <md-grid-list md-cols-gt-md="12" md-cols-sm="3" md-cols-md="8"
+                              md-row-height-gt-md="1:1" md-row-height="4:3"
+                              md-gutter-gt-md="16px" md-gutter-gt-sm="8px" md-gutter="4px">
+                    <md-grid-tile ng-repeat="tile in pvc.colorTiles"
+                                  ng-style="{'background': tile.color}"
+                                  md-colspan-gt-sm="{{tile.colspan}}"
+                                  md-rowspan-gt-sm="{{tile.rowspan}}">
+                    </md-grid-tile>
+                </md-grid-list>
+            </md-content>
+        </md-tab>
+        <md-tab label="{{pvc.translations.menu.exteriors}}">
+            <div class="">
+                <ul class="" style="">
+                    <li style="">
+                        <a class="" rel="portfolio" href="">
+                            <img alt="" height="200" src="" width="270">
+                            <span class=""></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </md-tab>
+    </md-tabs>
+
+    <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+        <md-button ng-click="pvc.showMore()">{{pvc.translations.menu.show_more}}</md-button>
+    </section>
+
+</div>

@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "result": [
+    {
+      "TotalBalance": 0,
+      "sdMyCompany": {
+        "website": "http://www.StudioWebware.com",
+        "reportLogoAlignment": "Center",
+        "reportLogo": "http://blog.karachicorner.com/blog-images/029/logo-designs/logo-designs-3.jpg",
+        "phone": "+1123-456-7890",
+        "name": "company 1",
+        "invoiceAgreement": "In mathematics, an argument of a function is a specific input in the function, also known as an independent variable. When it is clear from the context which argument is meant, the argument is often denoted by the abbreviation arg.",
+        "proposalAgreement": "-Prices listed are based on current availability and are subject to change at the time items are ordered.  Additional funding, if needed, will be billed separately after installation.\r\n\r\n-Does not include delivery costs to site which will be determined at the time of installation and billed separately  \r\n\r\n**To pay by Wire Transfer: Bank: First Republic Bank,  \r\nAccount Holder: Ken Fulk Inc.,  Account#: 99500839321,  ABA#: 321081669",
+        "hideClientAmounts": false,
+        "fax": "+1553-456-9521",
+        "email": "info@studiowebware.com",
+        "companyState": "state",
+        "companyPostalCode": "9000",
+        "companyCity": "city",
+        "companyAddress2": null,
+        "companyAddress": "street"
+      }
+    }
+  ],
+  "message": null
+}
